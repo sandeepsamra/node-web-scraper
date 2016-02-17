@@ -1,0 +1,23 @@
+{
+  "name": "node-web-scraper",
+  "version": "1.0.0",
+  "description": "A command line program that can parse remote pages, read the HTML, and write content to a file on disk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepsamra/node-web-scraper.git"
+  },
+  "author": "Sandeep Samra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepsamra/node-web-scraper/issues"
+  },
+  "homepage": "https://github.com/sandeepsamra/node-web-scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0"
+  }
+}
